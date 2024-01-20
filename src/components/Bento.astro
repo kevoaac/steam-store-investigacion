@@ -1,0 +1,49 @@
+---
+import BentoItem from "./BentoItem.astro";
+import Footer from "./Footer.astro";
+---
+
+<section
+  class={`
+  w-full max-w-[1400px]
+  grid grid-cols-10 auto-rows-[25rem] gap-4
+  mx-auto p-20
+`}
+>
+  <BentoItem class="col-span-10" title="Variables del proyecto">
+    <div
+      slot="image"
+      class="absolute h-full w-full bg-gray-900 bg-cover -z-10 opacity-50"
+    >
+    </div>
+    <p slot="content">
+      En el contexto del análisis del impacto negativo del desempleo en los
+      hogares de la ciudad de Quito durante el año 2020, es apropiado definir
+      las variables independientes y dependientes de la siguiente manera:
+    </p>
+  </BentoItem>
+  <BentoItem class="col-span-10 md:col-span-5" title="Variables Dependientes">
+    <p slot="content">
+      La variable dependiente en este análisis es el impacto negativo del
+      desempleo en los hogares de la ciudad de Quito durante el año 2020. Esta
+      variable se refiere a las consecuencias y repercusiones que el desempleo
+      puede tener en la vida de los hogares, incluyendo aspectos económicos,
+      sociales y de bienestar. Se observará cómo el desempleo afecta los
+      ingresos familiares, el acceso a necesidades básicas, la salud física y
+      mental de los miembros del hogar, y las relaciones sociales.
+    </p>
+  </BentoItem>
+  <BentoItem class="col-span-10 md:col-span-5" title="Variables Independientes">
+    <p slot="content">
+      La variable independiente en este estudio es el desempleo. Se refiere a la
+      situación laboral de las personas que se encuentran sin empleo durante
+      algún período del año 2020 en la ciudad de Quito. Esta variable es la que
+      se considera como el factor principal que puede influir en el impacto
+      negativo en los hogares, ya que el desempleo puede afectar directamente
+      los ingresos familiares y la estabilidad económica.
+    </p>
+  </BentoItem>
+  <BentoItem class="col-span-10" title="Gráficas">
+    <!-- <LineChart slot="content" /> -->
+  </BentoItem>
+</section>
