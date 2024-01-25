@@ -1,9 +1,9 @@
-import { Line } from "react-chartjs-2";
+import { Pie } from "react-chartjs-2";
 import { Chart as ChartJS } from "chart.js/auto";
 import { useState } from "react";
 import { UserData } from "../mocks/data";
 
-function LineChart({ tailwindStyles }) {
+function PieChart({ tailwindStyles }) {
   const [userData, setUserData] = useState({
     labels: UserData.map((data) => data.year),
     datasets: [
@@ -25,9 +25,9 @@ function LineChart({ tailwindStyles }) {
 
   return (
     <div className={`w-full ${tailwindStyles}`}>
-      <Line data={userData} />
+      <Pie data={userData} />
     </div>
   );
 }
 
-export default LineChart;
+export default PieChart;

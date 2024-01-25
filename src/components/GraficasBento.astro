@@ -1,0 +1,27 @@
+---
+import BarChart from "./BarChart";
+import LineChart from "./LineChart";
+import PieChart from "./PieChart";
+---
+
+<section
+  class={`
+  w-full max-w-7xl
+  grid grid-cols-10 gap-4
+  mx-auto 
+  px-10 md:px20
+`}
+>
+  <PieChart
+    client:visible
+    tailwindStyles="col-span-10 md:col-span-4  relative rounded-xl backdrop-blur-md border border-black/10 shadow-inner shadow-white/10 overflow-hidden flex items-center bg-[#1c3b50]"
+  />
+  <LineChart
+    client:visible
+    tailwindStyles="col-span-10 md:col-span-6 relative rounded-xl backdrop-blur-md border border-black/10 shadow-inner shadow-white/10 overflow-hidden flex items-center bg-[#1c3b50]"
+  />
+  <BarChart
+    client:visible
+    tailwindStyles="col-span-10 md:col-span-10 relative rounded-xl backdrop-blur-md border border-black/10 shadow-inner shadow-white/10 overflow-hidden flex items-center bg-[#1c3b50]"
+  />
+</section>

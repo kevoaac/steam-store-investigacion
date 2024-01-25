@@ -1,13 +1,13 @@
 ---
 import BentoItem from "./BentoItem.astro";
-import Footer from "./Footer.astro";
+import GraficasBento from "./GraficasBento.astro";
 ---
 
 <section
   class={`
   w-full max-w-[1400px]
-  grid grid-cols-10 auto-rows-[25rem] gap-4
-  mx-auto p-20
+  grid grid-cols-10 auto-rows-auto gap-4
+  mx-auto p-10 md:p-20
 `}
 >
   <BentoItem class="col-span-10" title="Variables del proyecto">
@@ -44,6 +44,6 @@ import Footer from "./Footer.astro";
     </p>
   </BentoItem>
   <BentoItem class="col-span-10" title="Gráficas">
-    <!-- <LineChart slot="content" /> -->
+    <GraficasBento slot="content" />
   </BentoItem>
 </section>

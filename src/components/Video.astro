@@ -1,7 +1,7 @@
 <div class="w-full relative">
   <div class="w-full flex justify-center">
     <h1
-      class="absolute z-10 text-5xl text-white top-20 uppercase font-semibold max-w-7xl text-center text-balance"
+      class="absolute z-10 text-2xl md:text-4xl text-white top-20 uppercase font-semibold max-w-7xl text-center text-balance px-1"
     >
       Factores que influyen en la popularidad y valoración de video-juegos en la
       Steam Store
@@ -9,11 +9,10 @@
   </div>
 
   <video
-    class="w-full h-screen object-cover animate-fade animate-duration-1000"
+    class="w-full h-screen object-cover animate-fade animate-duration-1000 videoClipPath"
     src="./steam-video.mp4"
     autoplay
-    muted
-    style="clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);"></video>
+    muted></video>
   <video
     class="absolute -bottom-48 blur-3xl -z-40"
     src="/steam-video.mp4"
@@ -21,3 +20,15 @@
     muted
     loop></video>
 </div>
+
+<style>
+  .videoClipPath {
+    clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+  }
+
+  @media (max-width: 768px) {
+    .videoClipPath {
+      clip-path: polygon(100% 0, 100% 85%, 50% 90%, 0 85%, 0 0);
+    }
+  }
+</style>

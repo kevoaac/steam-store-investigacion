@@ -1,9 +1,9 @@
-import { Line } from "react-chartjs-2";
+import { Bar } from "react-chartjs-2";
 import { Chart as ChartJS } from "chart.js/auto";
 import { useState } from "react";
 import { UserData } from "../mocks/data";
 
-function LineChart({ tailwindStyles }) {
+function BarChart({ tailwindStyles }) {
   const [userData, setUserData] = useState({
     labels: UserData.map((data) => data.year),
     datasets: [
@@ -25,9 +25,9 @@ function LineChart({ tailwindStyles }) {
 
   return (
     <div className={`w-full ${tailwindStyles}`}>
-      <Line data={userData} />
+      <Bar data={userData} />
     </div>
   );
 }
 
-export default LineChart;
+export default BarChart;
