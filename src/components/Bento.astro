@@ -1,19 +1,21 @@
 ---
+import BarChart from "./BarChart";
 import BentoItem from "./BentoItem.astro";
+import BentoItemBottomGradient from "./BentoItemBottomGradient.astro";
 import GraficasBento from "./GraficasBento.astro";
 ---
 
 <section
   class={`
-  w-full max-w-[1400px]
-  grid grid-cols-10 auto-rows-auto gap-4
-  mx-auto p-10 md:p-20
+  w-full max-w-7xl
+  grid grid-cols-10 auto-rows-[30rem] gap-4
+  mx-auto px-5 md:px-0
 `}
 >
   <BentoItem class="col-span-10" title="Variables del proyecto">
     <div
       slot="image"
-      class="absolute h-full w-full bg-gray-900 bg-cover -z-10 opacity-50"
+      class="absolute h-full w-full bg-[#0e141b] bg-cover -z-10 opacity-50"
     >
     </div>
     <p slot="content">
@@ -43,7 +45,25 @@ import GraficasBento from "./GraficasBento.astro";
       los ingresos familiares y la estabilidad económica.
     </p>
   </BentoItem>
-  <BentoItem class="col-span-10" title="Gráficas">
-    <GraficasBento slot="content" />
-  </BentoItem>
+  <BentoItemBottomGradient class="col-span-10 md:col-span-5" title="Juego">
+    <div
+      slot="image"
+      class="absolute w-full h-full bg-no-repeat bg-cover
+       group-hover:scale-105 transition-all duration-500 ease-in-out
+    opacity-90 bg-blue-950 bg-blend-luminosity -z-10"
+      style="background-image: url(https://cdn.akamai.steamstatic.com/steam/apps/4580/header.jpg?t=1603128095)"
+    >
+    </div>
+    <p slot="content">
+      Los resultados analizados de este juego son los siguientes: - El 80% de
+      los jugadores que jugaron el juego, no lograron pasar el primer nivel. -
+      El 20% de los jugadores que jugaron el juego, lograron pasar el primer
+      nivel. - El 10% de los jugadores que jugaron el juego, lograron pasar el
+      segundo nivel.
+    </p>
+  </BentoItemBottomGradient>
+  <BarChart
+    client:visible
+    tailwindStyles="col-span-10 md:col-span-5 relative rounded-xl backdrop-blur-md border border-black/10 shadow-inner shadow-white/10 overflow-hidden flex items-center bg-[#0e141b]"
+  />
 </section>
