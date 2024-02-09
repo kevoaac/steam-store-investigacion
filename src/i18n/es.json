@@ -1,0 +1,54 @@
+{
+  "SEO_TITLE" : "Investigación Steam Store, Análisis de factores que influyen en la valoracion de juegos en la Steam Store",
+  "SEO_DESCRIPTION" : "Investigacion de como influyen los parámetros en la valoración de los video-juegos de la Steam Store",
+
+  "HEADER_DESCRIPTION": "DESCRIPCIÓN",
+	"HEADER_VARIABLES": "VARIABLES",
+	"HEADER_GRAPHICS": "GRÁFICOS",
+	"HEADER_BUTTON": "DESCARGAR INFORME",
+
+  "VIDEO_TITLE": "FACTORES QUE INFLUYEN EN LA POPULARIDAD Y VALORACIÓN DE VIDEO-JUEGOS EN LA STEAM STORE",
+  
+  "INTRO_TITLE" : "Descripción del proyecto",
+  "INTRO_DESCRIPTION_1":"El mercado de videojuegos es uno de los más grandes del mundo, y <strong>Steam</strong> es la plataforma más grande de distribución de videojuegos en PC. En esta plataforma,los usuarios pueden comprar, descargar y jugar videojuegos, así como tambiénpueden interactuar con otros usuarios a través de la comunidad de Steam.",
+  "INTRO_DESCRIPTION_2":"En esta comunidad, los usuarios pueden compartir contenido, como capturas de pantalla, videos, guías, etc. Además, los usuarios pueden calificar los videojuegos que han jugado, y pueden escribir reseñas sobre ellos.",
+  "INTRO_DESCRIPTION_3":"Para ello es importante conocer cuales son los aspectos más importante para los usuarios a la hora de comprar un videojuego, y para ello se ha realizado un análisis de sentimientos de las reseñas de los videojuegos de Steam.",
+
+  "BENTO_TITLE_1": "Variables del proyecto",
+	"BENTO_CONTENT_1": "En el contexto del análisis del impacto negativo del desempleo en los hogares de la ciudad de Quito durante el año 2020, es apropiado definir las variables independientes y dependientes de la siguiente manera:",
+	"BENTO_TITLE_2": "Variables Dependientes",
+	"BENTO_SUBTITLE_2": "",
+	"BENTO_CONTENT_2": "La variable dependiente en este análisis es el impacto negativo del desempleo en los hogares de la ciudad de Quito durante el año 2020. Esta variable se refiere a las consecuencias y repercusiones que el desempleo puede tener en la vida de los hogares, incluyendo aspectos económicos, sociales y de bienestar. Se observará cómo el desempleo afecta los ingresos familiares, el acceso a necesidades básicas, la salud física y mental de los miembros del hogar, y las relaciones sociales.",
+	"BENTO_TITLE_3": "Variables Independientes",
+	"BENTO_SUBTITLE_3": "",
+	"BENTO_CONTENT_3": "La variable independiente en este estudio es el desempleo. Se refiere a la situación laboral de las personas que se encuentran sin empleo durante algún período del año 2020 en la ciudad de Quito. Esta variable es la que se considera como el factor principal que puede influir en el impacto negativo en los hogares, ya que el desempleo puede afectar directamente los ingresos familiares y la estabilidad económica.",
+	"BENTO_TITLE_4": "Juego",
+	"BENTO_CONTENT_4": "Los resultados analizados de este juego son los siguientes: - El 80% de los jugadores que jugaron el juego, no lograron pasar el primer nivel. - El 20% de los jugadores que jugaron el juego, lograron pasar el primer nivel. - El 10% de los jugadores que jugaron el juego, lograron pasar el segundo nivel.",
+
+  "SCHEDULE_TITLE": "Cronograma de actividades",
+
+  "FOOTER": {
+    "LOGO_TITLE":"Investigación Steam Store",
+		"DISCLAIMER": "2024 © Todos los derechos reservados.",
+		"CONTACT": {
+			"TITLE": "CONTACTO",
+			"LEGAL": "Aviso Legal",
+			"PRIVACY": "Privacidad",
+			"COOKIES": "Cookies"
+		},
+		"WEB_MAP": {
+			"TITLE": "WEB-MAP",
+			"HOME": "Home",
+			"INFO": "Info",
+			"REPORT": "Informe"
+		},
+		"RESOURSES": {
+      "TITLE": "RECURSOS",
+			"CODE": "Código fuente",
+			"DATASET": "Home",
+			"APIS": "APIs"
+		}
+	}
+  
+
+}

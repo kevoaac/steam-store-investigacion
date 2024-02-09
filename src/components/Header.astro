@@ -1,7 +1,12 @@
 ---
 import HeaderLink from "./HeaderLink.astro";
-import Logo from "./Logo.astro";
+import Logo from "./icons/Logo.astro";
 import Button from "./Button.astro";
+import { getI18N } from "@/i18n";
+import LanguageSelector from "./LanguageSelector.astro";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
 ---
 
 <header id="header-nav" class="fixed top-0 w-full px-6 py-4 z-50">
@@ -17,15 +22,20 @@ import Button from "./Button.astro";
       class="fixed w-full h-dvh inset-0 bg-[#151a36]/90 text-2xl flex flex-col items-center justify-center gap-8 -translate-y-full transition-transform duration-300 target:translate-y-0 md:static md:h-[initial] md:bg-[initial] md:text-xl md:flex-row md:translate-y-[initial]"
     >
       <HeaderLink class="text__glowing" href="/descripcion">
-        DESCRIPCIÓN
+        {i18n.HEADER_DESCRIPTION}
       </HeaderLink>
-      <HeaderLink class="text__glowing" href="/variables">VARIABLES</HeaderLink>
-      <HeaderLink class="text__glowing" href="/graficas">GRÁFICAS</HeaderLink>
+      <HeaderLink class="text__glowing" href="/variables">
+        {i18n.HEADER_VARIABLES}
+      </HeaderLink>
+      <HeaderLink class="text__glowing" href="/graficas">
+        {i18n.HEADER_GRAPHICS}
+      </HeaderLink>
+      <LanguageSelector />
       <Button
         class="md:py-2 md:ml-auto md:text-base lg:text-base"
         url="https://drive.google.com/file/linK-del-informe"
       >
-        Descargar Informe
+        {i18n.HEADER_BUTTON}
       </Button>
     </nav>
   </div>

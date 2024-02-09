@@ -1,0 +1,14 @@
+---
+const { href, class: className, ...restOfProps } = Astro.props;
+---
+
+<a
+  href={href}
+  class:list={[
+    className,
+    "border-transparent Hover:[border-white] cursor-pointer",
+  ]}
+  {...restOfProps}
+>
+  <slot />
+</a>

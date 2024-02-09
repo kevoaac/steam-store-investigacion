@@ -1,0 +1,102 @@
+---
+import { getI18N } from "@/i18n";
+import FooterLink from "./FooterLink.astro";
+import Logo from "./icons/Logo.astro";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+---
+
+<footer class="w-full">
+  <section class="min-h-48 bg-[#1e2329]">
+    <div class="flex flex-col md:flex-row max-w-7xl justify-between mx-auto">
+      <aside class="mx-auto">
+        <div
+          class="flex flex-col justify-start items-center max-w-60 bottom-12 relative"
+        >
+          <FooterLink href="/" class="relative z-10">
+            <Logo
+              class="absolute w-36 blur-sm opacity-0 transition-opacity duration-300 hover:opacity-100"
+            />
+            <Logo class="w-36" />
+          </FooterLink>
+          <FooterLink
+            class="text__glowing__medium text-2xl text-pretty text-center"
+            href="/"
+          >
+            {i18n.FOOTER.LOGO_TITLE}
+          </FooterLink>
+        </div>
+      </aside>
+
+      <aside
+        class="flex flex-col md:flex-row items-center md:justify-evenly w-full py-0 md:py-10 gap-10 text-center mb-10 md:mb-0"
+      >
+        <div>
+          <h3 class="uppercase text-xl mb-2">{i18n.FOOTER.CONTACT.TITLE}</h3>
+          <ul>
+            <li>
+              <FooterLink class="text__glowing__min hover:text-[#66c0f4]">
+                {i18n.FOOTER.CONTACT.LEGAL}
+              </FooterLink>
+            </li>
+            <li>
+              <FooterLink class="text__glowing__min hover:text-[#66c0f4]">
+                {i18n.FOOTER.CONTACT.PRIVACY}
+              </FooterLink>
+            </li>
+            <li>
+              <FooterLink class="text__glowing__min hover:text-[#66c0f4]">
+                {i18n.FOOTER.CONTACT.COOKIES}
+              </FooterLink>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="uppercase text-xl mb-2">{i18n.FOOTER.WEB_MAP.TITLE}</h3>
+          <ul>
+            <li>
+              <FooterLink class="text__glowing__min hover:text-[#66c0f4]">
+                {i18n.FOOTER.WEB_MAP.HOME}
+              </FooterLink>
+            </li>
+            <li>
+              <FooterLink class="text__glowing__min hover:text-[#66c0f4]">
+                {i18n.FOOTER.WEB_MAP.INFO}
+              </FooterLink>
+            </li>
+            <li>
+              <FooterLink class="text__glowing__min hover:text-[#66c0f4]">
+                {i18n.FOOTER.WEB_MAP.REPORT}
+              </FooterLink>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="uppercase text-xl mb-2">{i18n.FOOTER.RESOURSES.TITLE}</h3>
+          <ul>
+            <li>
+              <FooterLink class="text__glowing__min hover:text-[#66c0f4]">
+                {i18n.FOOTER.RESOURSES.CODE}
+              </FooterLink>
+            </li>
+            <li>
+              <FooterLink class="text__glowing__min hover:text-[#66c0f4]">
+                {i18n.FOOTER.RESOURSES.DATASET}
+              </FooterLink>
+            </li>
+            <li>
+              <FooterLink class="text__glowing__min hover:text-[#66c0f4]">
+                {i18n.FOOTER.RESOURSES.APIS}
+              </FooterLink>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="min-h-10 bg-[#0e141b] flex justify-center items-center">
+    <span class="">{i18n.FOOTER.DISCLAIMER}</span>
+  </section>
+</footer>

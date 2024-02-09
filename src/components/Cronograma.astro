@@ -1,9 +1,13 @@
 ---
-import { Gantt } from "./Gantt";
+import { getI18N } from "@/i18n";
+import { Gantt } from "./charts/Gantt";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
 ---
 
 <section
-  class="text-xl text-left px-5 mx-5 md:mx-auto max-w-7xl text-pretty my-24 rounded-xl
+  class="text-xl text-left px-5 mx-5 lg:mx-auto max-w-7xl text-pretty my-24 rounded-xl
 backdrop-blur-md
 border border-black/10
 shadow-inner shadow-white/10
@@ -11,7 +15,7 @@ overflow-hidden"
 >
   <div class="select-none flex flex-col gap-1 p-6 text-lg z-20">
     <h2 class="text-3xl font-semibold text-balance">
-      Cronograma de actividades
+      {i18n.SCHEDULE_TITLE}
     </h2>
     <Gantt client:visible />
   </div>

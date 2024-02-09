@@ -1,65 +1,55 @@
 ---
-import BarChart from "./BarChart";
+import BarChart from "./charts/BarChart";
 import BentoItem from "./BentoItem.astro";
 import BentoItemBottomGradient from "./BentoItemBottomGradient.astro";
 import GraficasBento from "./GraficasBento.astro";
+import { getI18N } from "@/i18n";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
 ---
 
 <section
   class={`
   w-full max-w-7xl
   grid grid-cols-10 auto-rows-[30rem] gap-4
-  mx-auto px-5 md:px-0
+  mx-auto px-5 lg:px-0
 `}
 >
-  <BentoItem class="col-span-10" title="Variables del proyecto">
+  <BentoItem class="col-span-10" title={i18n.BENTO_TITLE_1}>
     <div
       slot="image"
       class="absolute h-full w-full bg-[#0e141b] bg-cover -z-10 opacity-50"
     >
     </div>
     <p slot="content">
-      En el contexto del análisis del impacto negativo del desempleo en los
-      hogares de la ciudad de Quito durante el año 2020, es apropiado definir
-      las variables independientes y dependientes de la siguiente manera:
+      {i18n.BENTO_CONTENT_1}
     </p>
   </BentoItem>
-  <BentoItem class="col-span-10 md:col-span-5" title="Variables Dependientes">
+  <BentoItem class="col-span-10 md:col-span-5" title={i18n.BENTO_TITLE_2}>
     <p slot="content">
-      La variable dependiente en este análisis es el impacto negativo del
-      desempleo en los hogares de la ciudad de Quito durante el año 2020. Esta
-      variable se refiere a las consecuencias y repercusiones que el desempleo
-      puede tener en la vida de los hogares, incluyendo aspectos económicos,
-      sociales y de bienestar. Se observará cómo el desempleo afecta los
-      ingresos familiares, el acceso a necesidades básicas, la salud física y
-      mental de los miembros del hogar, y las relaciones sociales.
+      {i18n.BENTO_CONTENT_2}
     </p>
   </BentoItem>
-  <BentoItem class="col-span-10 md:col-span-5" title="Variables Independientes">
+  <BentoItem class="col-span-10 md:col-span-5" title={i18n.BENTO_TITLE_3}>
     <p slot="content">
-      La variable independiente en este estudio es el desempleo. Se refiere a la
-      situación laboral de las personas que se encuentran sin empleo durante
-      algún período del año 2020 en la ciudad de Quito. Esta variable es la que
-      se considera como el factor principal que puede influir en el impacto
-      negativo en los hogares, ya que el desempleo puede afectar directamente
-      los ingresos familiares y la estabilidad económica.
+      {i18n.BENTO_CONTENT_3}
     </p>
   </BentoItem>
-  <BentoItemBottomGradient class="col-span-10 md:col-span-5" title="Juego">
+  <BentoItemBottomGradient
+    class="col-span-10 md:col-span-5"
+    title={i18n.BENTO_TITLE_4}
+  >
     <div
       slot="image"
       class="absolute w-full h-full bg-no-repeat bg-cover
        group-hover:scale-105 transition-all duration-500 ease-in-out
-    opacity-90 bg-blue-950 bg-blend-luminosity -z-10"
+    opacity-90 bg-[#23374B] bg-blend-luminosity -z-10"
       style="background-image: url(https://cdn.akamai.steamstatic.com/steam/apps/4580/header.jpg?t=1603128095)"
     >
     </div>
     <p slot="content">
-      Los resultados analizados de este juego son los siguientes: - El 80% de
-      los jugadores que jugaron el juego, no lograron pasar el primer nivel. -
-      El 20% de los jugadores que jugaron el juego, lograron pasar el primer
-      nivel. - El 10% de los jugadores que jugaron el juego, lograron pasar el
-      segundo nivel.
+      {i18n.BENTO_CONTENT_4}
     </p>
   </BentoItemBottomGradient>
   <BarChart

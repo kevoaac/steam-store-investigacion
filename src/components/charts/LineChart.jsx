@@ -1,7 +1,7 @@
 import { Line } from "react-chartjs-2";
 import { Chart as ChartJS } from "chart.js/auto";
 import { useState } from "react";
-import { UserData } from "../mocks/data";
+import { UserData } from "../../mocks/data";
 
 function LineChart({ tailwindStyles }) {
   const [userData, setUserData] = useState({

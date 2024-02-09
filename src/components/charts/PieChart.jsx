@@ -1,15 +1,15 @@
-import { Scatter } from "react-chartjs-2";
+import { Pie } from "react-chartjs-2";
 import { Chart as ChartJS } from "chart.js/auto";
 import { useState } from "react";
-import { ScatterData } from "../mocks/data";
+import { UserData } from "../../mocks/data";
 
-function ScatterChart({ tailwindStyles }) {
-  const [scatterData, setScatterData] = useState({
-    labels: ScatterData.map((data) => data.x),
+function PieChart({ tailwindStyles }) {
+  const [userData, setUserData] = useState({
+    labels: UserData.map((data) => data.year),
     datasets: [
       {
         label: "Users Gained",
-        data: ScatterData.map((data) => data.y),
+        data: UserData.map((data) => data.userGain),
         backgroundColor: [
           "rgba(75,192,192,1)",
           "#ecf0f1",
@@ -25,9 +25,9 @@ function ScatterChart({ tailwindStyles }) {
 
   return (
     <div className={`w-full ${tailwindStyles}`}>
-      <Scatter data={scatterData} />
+      <Pie data={userData} />
     </div>
   );
 }
 
-export default ScatterChart;
+export default PieChart;

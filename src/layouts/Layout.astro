@@ -3,6 +3,8 @@
 import "@fontsource-variable/onest";
 import Header from "../components/Header.astro";
 import { ViewTransitions } from "astro:transitions";
+import App from "../components/pages/App.astro";
+import { getLangFromUrl } from "@/i18n/utils";
 
 interface Props {
   description: string;
@@ -10,6 +12,7 @@ interface Props {
 }
 
 const { description, title } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
 ---
 
 <!doctype html>
@@ -18,7 +21,7 @@ const { description, title } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/steam-icon.svg" />
     <title>{title}</title>
     <ViewTransitions />
   </head>
@@ -52,7 +55,12 @@ const { description, title } = Astro.props;
 
       html {
         font-family: "Onest Variable", system-ui, sans-serif;
-        background: #000b15;
+        background: rgb(20, 34, 48);
+        background: linear-gradient(
+          183deg,
+          rgba(20, 34, 48, 1) 0%,
+          rgba(20, 52, 75, 1) 100%
+        );
       }
 
       ::-webkit-scrollbar {
@@ -92,11 +100,36 @@ const { description, title } = Astro.props;
 
       .text__glowing:hover {
         text-shadow:
-          0 0 10px #fff,
-          0 0 20px #fff,
-          0 0 40px #fff,
-          0 0 80px #fff,
-          0 0 120px #fff;
+          0 0 10px rgba(255, 255, 255, 0.8),
+          0 0 20px rgba(255, 255, 255, 0.8),
+          0 0 40px rgba(255, 255, 255, 0.8),
+          0 0 80px rgba(255, 255, 255, 0.8),
+          0 0 120px rgba(255, 255, 255, 0.8);
+      }
+      .text__glowing__medium {
+        transition: text-shadow 0.3s ease;
+      }
+
+      .text__glowing__medium:hover {
+        text-shadow:
+          0 0 5px rgba(255, 255, 255, 0.4),
+          0 0 10px rgba(255, 255, 255, 0.4),
+          0 0 20px rgba(255, 255, 255, 0.4),
+          0 0 40px rgba(255, 255, 255, 0.4),
+          0 0 60px rgba(255, 255, 255, 0.4);
+      }
+
+      .text__glowing__min {
+        transition: text-shadow 0.3s ease;
+      }
+
+      .text__glowing__min:hover {
+        text-shadow:
+          0 0 2px rgba(102, 192, 244, 0.2),
+          0 0 4px rgba(102, 192, 244, 0.2),
+          0 0 8px rgba(102, 192, 244, 0.2),
+          0 0 16px rgba(102, 192, 244, 0.2),
+          0 0 24px rgba(102, 192, 244, 0.2);
       }
 
       #header-nav {

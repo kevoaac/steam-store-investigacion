@@ -1,25 +1,5 @@
 ---
-import Bento from "../components/Bento.astro";
-import Cronograma from "../components/Cronograma.astro";
-import Footer from "../components/Footer.astro";
-import GraficasBento from "../components/GraficasBento.astro";
-import Intro from "../components/Intro.astro";
-import Video from "../components/Video.astro";
-import Layout from "../layouts/Layout.astro";
+import App from "../components/pages/App.astro";
 ---
 
-<Layout
-  title="Investigación Steam Store, Análisis de factores que influyen en la valoracion de juegos en la Steam Store"
-  description="Investigacion de como influyen los parámetros en la valoración de los video-juegos de la Steam Store"
->
-  <main>
-    <Video />
-    <Intro />
-    <Bento />
-    <Footer />
-    <GraficasBento />
-    <Cronograma />
-  </main>
-</Layout>
-
-<style></style>
+<App />

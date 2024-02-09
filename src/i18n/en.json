@@ -1,0 +1,52 @@
+{
+  "SEO_TITLE" : "Steam Store Research, Analysis of factors that influence the valuation of games in the Steam Store",
+  "SEO_DESCRIPTION" : "Research on how parameters influence the valuation of video games in the Steam Store",
+
+  "HEADER_DESCRIPTION": "DESCRIPTION",
+  "HEADER_VARIABLES": "VARIABLES",
+  "HEADER_GRAPHICS": "GRAPHICS",
+  "HEADER_BUTTON": "DOWNLOAD REPORT",
+
+  "VIDEO_TITLE": "FACTORS THAT INFLUENCE THE POPULARITY AND VALUATION OF VIDEO GAMES IN THE STEAM STORE",
+  
+  "INTRO_TITLE" : "Project description",
+  "INTRO_DESCRIPTION_1":"The video game market is one of the largest in the world, and <strong>Steam</strong> is the largest PC video game distribution platform. On this platform, users can buy, download and play video games, as well as interact with other users through the Steam community.",
+  "INTRO_DESCRIPTION_2":"In this community, users can share content, such as screenshots, videos, guides, etc. In addition, users can rate the video games they have played, and can write reviews about them.",
+  "INTRO_DESCRIPTION_3":"For this reason, it is important to know what are the most important aspects for users when buying a video game, and for this reason a sentiment analysis of the reviews of Steam video games has been carried out.",
+
+  "BENTO_TITLE_1": "Project variables",
+  "BENTO_CONTENT_1": "In the context of the analysis of the negative impact of unemployment on households in the city of Quito during the year 2020, it is appropriate to define the independent and dependent variables as follows:",
+  "BENTO_TITLE_2": "Dependent Variables",
+  "BENTO_SUBTITLE_2": "",
+  "BENTO_CONTENT_2": "The dependent variable in this analysis is the negative impact of unemployment on households in the city of Quito during the year 2020. This variable refers to the consequences and repercussions that unemployment can have on the lives of households, including economic, social and well-being aspects. It will be observed how unemployment affects family income, access to basic needs, the physical and mental health of household members, and social relationships.",
+  "BENTO_TITLE_3": "Independent Variables",
+  "BENTO_SUBTITLE_3": "",
+  "BENTO_CONTENT_3": "The independent variable in this study is unemployment. It refers to the employment situation of people who are unemployed for some period of the year 2020 in the city of Quito. This variable is considered as the main factor that can influence the negative impact on households, since unemployment can directly affect family income and economic stability.",
+  "BENTO_TITLE_4": "Game",
+  "BENTO_CONTENT_4": "The analyzed results of this game are as follows: - 80% of the players who played the game, did not manage to pass the first level. - 20% of the players who played the game, managed to pass the first level. - 10% of the players who played the game, managed to pass the second level.",
+
+  "SCHEDULE_TITLE": "Schedule of activities",
+
+  "FOOTER": {
+    "LOGO_TITLE":"Steam Store Research",
+    "DISCLAIMER": "2024 © All rights reserved.",
+    "CONTACT": {
+      "TITLE": "CONTACT",
+      "LEGAL": "Legal Notice",
+      "PRIVACY": "Privacy",
+      "COOKIES": "Cookies"
+    },
+    "WEB_MAP": {
+      "TITLE": "WEB-MAP",
+      "HOME": "Home",
+      "INFO": "Info",
+      "REPORT": "Report"
+    },
+    "RESOURSES": {
+      "TITLE": "RESOURSES",
+      "CODE": "Source code",
+      "DATASET": "Home",
+      "APIS": "APIs"
+    }
+  }
+}

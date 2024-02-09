@@ -1,32 +1,25 @@
 ---
-
+import { getI18N } from "@/i18n";
+import Logo from "./icons/Logo.astro";
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
 ---
 
 <section
   class="text-lg md:text-xl text-left px-10 md:px-20 max-w-[80ch] text-pretty mx-auto md:my-24"
 >
-  <img class="w-16 mb-10 m-auto" src="/steam-icon.svg" alt="Logo de Steam" />
+  <Logo class="w-16 mb-10 m-auto" />
   <h1
     class="text-2xl md:text-5xl font-semibold text-center text-wrap mx-auto mb-10 tracking-wide"
   >
-    Descripción del proyecto
+    {i18n.INTRO_TITLE}
   </h1>
 
+  <p set:html={i18n.INTRO_DESCRIPTION_1} />
   <p>
-    El mercado de videojuegos es uno de los más grandes del mundo, y <strong
-      >Steam</strong
-    > es la plataforma más grande de distribución de videojuegos en PC. En esta plataforma,
-    los usuarios pueden comprar, descargar y jugar videojuegos, así como también
-    pueden interactuar con otros usuarios a través de la comunidad de Steam.
+    {i18n.INTRO_DESCRIPTION_2}
   </p>
   <p>
-    En esta comunidad, los usuarios pueden compartir contenido, como capturas de
-    pantalla, videos, guías, etc. Además, los usuarios pueden calificar los
-    videojuegos que han jugado, y pueden escribir reseñas sobre ellos.
-  </p>
-  <p>
-    Para ello es importante conocer cuales son los aspectos más importante para
-    los usuarios a la hora de comprar un videojuego, y para ello se ha realizado
-    un análisis de sentimientos de las reseñas de los videojuegos de Steam.
+    {i18n.INTRO_DESCRIPTION_3}
   </p>
 </section>
