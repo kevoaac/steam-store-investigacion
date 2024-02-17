@@ -2,9 +2,9 @@
   "SEO_TITLE" : "Steam Store Research, Analysis of factors that influence the valuation of games in the Steam Store",
   "SEO_DESCRIPTION" : "Research on how parameters influence the valuation of video games in the Steam Store",
 
-  "HEADER_DESCRIPTION": "DESCRIPTION",
-  "HEADER_VARIABLES": "VARIABLES",
-  "HEADER_GRAPHICS": "GRAPHICS",
+  "HEADER_ABOUT": "ABOUT",
+	"HEADER_DATASET": "DATASET",
+	"HEADER_RESOURSES": "RESOURSES",
   "HEADER_BUTTON": "DOWNLOAD REPORT",
 
   "VIDEO_TITLE": "FACTORS THAT INFLUENCE THE POPULARITY AND VALUATION OF VIDEO GAMES IN THE STEAM STORE",

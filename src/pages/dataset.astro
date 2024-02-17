@@ -1,0 +1,47 @@
+---
+import Intro2 from "@/components/Intro2.astro";
+import Layout from "../layouts/Layout.astro";
+import Logo from "@/components/icons/Logo.astro";
+import LogoDataBaseSmile from "@/components/icons/LogoDataBaseSmile.astro";
+import LogoDataBase from "@/components/icons/LogoDataBase.astro";
+---
+
+<Layout title="dataset" , description="dataset">
+  <main class="py-8">
+    <Intro2 title="Origen del Dataset">
+      <p slot="p1">
+        El conjunto de datos se basa en la combinación de información recopilada
+        de la Steam Store y las APIs de SteamSpy. Creado por Nik Davis, este
+        conjunto de datos fue concebido en mayo de 2019 y abarca la mayoría de
+        los juegos lanzados hasta esa fecha en la tienda de Steam. Nik se
+        propuso crear este dataset como parte de su viaje de aprendizaje en
+        ciencia de datos y ha compartido generosamente la información para su
+        uso público.
+      </p>
+    </Intro2>
+    <Intro2 title="Propósito y Contenido:">
+      <LogoDataBase class="w-12" slot="logo" />
+
+      <p slot="p1">
+        El dataset contiene información detallada sobre diversos aspectos de los
+        juegos, como género y estimación del número de propietarios. Fue
+        diseñado con el propósito de ser utilizado en proyectos de ciencia de
+        datos y, en nuestro caso, ha sido una herramienta valiosa para explorar
+        patrones y relaciones en el contexto de nuestra investigación académica.
+      </p>
+    </Intro2>
+    <Intro2 title="Uso del Dataset">
+      <LogoDataBaseSmile class="w-12" slot="logo" />
+      <p slot="p1">
+        Nos gustaría expresar nuestro agradecimiento a Nik Davis por
+        proporcionar este dataset y alentamos a otros investigadores y
+        entusiastas de la ciencia de datos a explorar y utilizar esta valiosa
+        fuente de información. Puedes acceder al dataset en <a
+          href="https://www.kaggle.com/datasets/nikdavis/steam-store-games"
+          class="text-blue-500 hover:text-blue-400 transition-colors ease-in-out"
+          >Kaggle</a
+        >.
+      </p>
+    </Intro2>
+  </main>
+</Layout>

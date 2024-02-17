@@ -1,0 +1,49 @@
+---
+import Intro2 from "@/components/Intro2.astro";
+import Intro from "../components/Intro.astro";
+import Video from "../components/Video.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="about" , description="about">
+  <main class="h-screen">
+    <Intro2 title="Acerca de la Investigación:">
+      <p slot="p1">
+        Bienvenido a nuestro espacio de investigación! Queremos informarte que
+        el trabajo que encontrarás en este sitio está siendo realizado con fines
+        exclusivamente académicos y educativos. Nuestra meta principal es
+        contribuir al conocimiento en nuestra área de estudio y proporcionar
+        ejemplos con propósitos didácticos.
+      </p>
+      <p slot="p2">
+        Es importante tener en cuenta que este trabajo <strong
+          >puede no cumplir con los estándares profesionales</strong
+        > de una investigación formal y profesional. Te recomendamos interpretar
+        los resultados y conclusiones con la consideración adecuada, entendiendo
+        que el enfoque principal es educativo.
+      </p>
+      <p slot="p3">
+        Si bien nos esforzamos por la precisión y calidad en nuestro trabajo,
+        agradecemos tu comprensión de que el contenido aquí presente <strong
+          >puede no estar completamente alineado con los rigurosos estándares de
+          la investigación profesional.</strong
+        >
+      </p>
+      <p slot="p4">
+        Si tiene alguna pregunta o comentario, no dudes en ponerte en contacto
+        con nosotros. ¡Gracias por tu interés y comprensión!
+      </p>
+    </Intro2>
+    <Intro2 title="Agradecimientos">
+      <p slot="p1">
+        Queremos expresar nuestro agradecimiento al ingeniero <strong
+          >Milton Giovanny Moncayo Unda</strong
+        >, supervisor y maestro de la materia, cuya guía y orientación fueron
+        esenciales para el desarrollo exitoso de este proyecto. Agradecemos
+        también a nuestros compañeros de clase y a todos aquellos que brindaron
+        apoyo y perspectivas valiosas. Su contribución ha sido fundamental para
+        enriquecer nuestra experiencia educativa.
+      </p>
+    </Intro2>
+  </main>
+</Layout>

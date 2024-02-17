@@ -12,8 +12,8 @@ export default defineConfig({
     locales: ["en", "es"],
     defaultLocale: "es",
     routing: {
-      prefixDefaultLocale: false // URL -> false: /es /en  true: / /en
-    }
+      prefixDefaultLocale: false, // URL -> false: /es /en  true: / /en
+    },
   },
-  adapter: vercel()
+  adapter: vercel(),
 });
