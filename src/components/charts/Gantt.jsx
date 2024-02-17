@@ -17,48 +17,58 @@ const rows = [
     "capitulo1", // id
     "Definición del problema", // nombre
     null, // recurso
-    new Date(2024, 1, 5), // fecha de inicio
-    new Date(2024, 1, 19), // fecha de finalización
+    new Date(2024, 0, 5), // fecha de inicio
+    new Date(2024, 0, 19), // fecha de finalización
     null, // duración
     100, //porcentaje 1 a 100
     null, // dependencias
   ],
   [
     "capitulo2",
-    "Tema2",
+    "Marco referencial",
     "Capitulo 2",
-    new Date(2024, 1, 19),
-    new Date(2024, 2, 10),
+    new Date(2024, 0, 19),
+    new Date(2024, 0, 26),
     null,
     100,
     null,
   ],
   [
     "capitulo3",
-    "Tema3",
+    "Marco metodológico y administrativo",
     "Capitulo 3",
-    new Date(2024, 2, 10),
-    new Date(2024, 2, 20),
+    new Date(2024, 0, 26),
+    new Date(2024, 1, 2),
     null,
     100,
     null,
   ],
   [
     "capitulo4",
-    "Tema4",
+    "Recopilación y análisis de datos",
     "Capitulo 4",
-    new Date(2024, 2, 20),
-    new Date(2024, 2, 30),
+    new Date(2024, 1, 2),
+    new Date(2024, 1, 9),
     null,
     100,
     null,
   ],
   [
     "capitulo5",
-    "Tema5",
+    "Resultados y conclusiones",
     "Capitulo 5",
-    new Date(2024, 2, 30),
-    new Date(2024, 3, 1),
+    new Date(2024, 1, 9),
+    new Date(2024, 1, 16),
+    null,
+    100,
+    null,
+  ],
+  [
+    "capitulo6",
+    "Presentación de investigación",
+    "capitulo6",
+    new Date(2024, 1, 16),
+    new Date(2024, 1, 23),
     null,
     100,
     null,
@@ -70,14 +80,14 @@ export const data = [columns, ...rows];
 export const options = {
   gantt: {
     trackHeight: 33, // altura de cada tarea
-    innerGridTrack: { fill: "#242424" }, //
+    innerGridTrack: { fill: "#1e2329" }, //
     barCornerRadius: 6, // curvatura de las esquinas de cada tarea
     barHeight: 20, // altura de cada tarea
     labelMaxWidth: 500, // ancho máximo de las etiquetas
     labelStyle: { fontName: "Onest Variable", fontSize: 14 }, // estilo de las etiquetas
   },
   backgroundColor: {
-    fill: "606060", // color de fondo
+    fill: "#606060", // color de fondo
   },
 };
 
@@ -87,7 +97,7 @@ export function Gantt() {
       <Chart
         chartType="Gantt"
         width="100%"
-        height="100%"
+        height="230px"
         data={data}
         options={options}
       />
