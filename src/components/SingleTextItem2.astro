@@ -1,0 +1,21 @@
+---
+import { getI18N } from "@/i18n";
+import BentoItem from "./BentoItem.astro";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+---
+
+<BentoItem
+  class="col-span-10 md:col-span-10 max-w-7xl mx-auto my-24"
+  title={i18n.SINGLE_TEXT_ITEM_TITLE_2}
+>
+  <div
+    slot="image"
+    class="absolute h-full w-full bg-[#24091b] bg-cover -z-10 opacity-50"
+  >
+  </div>
+  <p slot="content">
+    {i18n.SINGLE_TEXT_ITEM_CONTENT_2}
+  </p>
+</BentoItem>

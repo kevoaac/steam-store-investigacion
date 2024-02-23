@@ -1,0 +1,62 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import HorizontalCard from "../HorizontalCard.astro";
+
+import { getI18N } from "../../i18n";
+import CardWithLink from "../CardWithLink.astro";
+import News from "../icons/News.astro";
+import Polaroid from "../icons/Polaroid.astro";
+import GitHub from "../icons/GitHub.astro";
+import DataBaseHeart from "../icons/DataBaseHeart.astro";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+---
+
+<Layout title="resourses" , description="resourses">
+  <main class="min-h-screen">
+    <HorizontalCard
+      title={i18n.RESOURSES_TITLE_1}
+      description={i18n.RESOURSES_DESCRIPTION_1}
+      img="/resourses_img2.jpg"
+    />
+
+    <div class="flex max-w-7xl flex-wrap mx-auto justify-center gap-10">
+      <CardWithLink
+        title={i18n.RESOURSES_CARD_TITLE_1}
+        description={i18n.RESOURSES_CARD_DESCRIPTION_1}
+        linkName={i18n.RESOURSES_CARD_LINKNAME_1}
+        href="https://drive.google.com/file/d/1vF-P3YeKBYfi1RaN9gAqgTyI_BSrTa4S/view?usp=sharing"
+      >
+        <News width="30" />
+      </CardWithLink>
+
+      <CardWithLink
+        title={i18n.RESOURSES_CARD_TITLE_2}
+        description={i18n.RESOURSES_CARD_DESCRIPTION_2}
+        linkName={i18n.RESOURSES_CARD_LINKNAME_2}
+        href="https://drive.google.com/file/d/1jHzzAruVTeumx3Fw6Zqxx9hyZfUQOPEo/view?usp=sharing"
+      >
+        <Polaroid width="30" />
+      </CardWithLink>
+
+      <CardWithLink
+        title={i18n.RESOURSES_CARD_TITLE_3}
+        description={i18n.RESOURSES_CARD_DESCRIPTION_3}
+        linkName={i18n.RESOURSES_CARD_LINKNAME_3}
+        href="https://www.kaggle.com/datasets/nikdavis/steam-store-games"
+      >
+        <DataBaseHeart width="30" />
+      </CardWithLink>
+
+      <CardWithLink
+        title={i18n.RESOURSES_CARD_TITLE_4}
+        description={i18n.RESOURSES_CARD_DESCRIPTION_4}
+        linkName={i18n.RESOURSES_CARD_LINKNAME_4}
+        href="https://github.com/kevoaac/steam-store-investigacion"
+      >
+        <GitHub width="30" />
+      </CardWithLink>
+    </div>
+  </main>
+</Layout>

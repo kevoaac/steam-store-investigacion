@@ -1,0 +1,68 @@
+---
+import BarChart from "./charts/BarChart";
+import BentoItem from "./BentoItem.astro";
+import BentoItemBottomGradient from "./BentoItemBottomGradient.astro";
+import GraficasBento from "./GraficasBento.astro";
+import { getI18N } from "@/i18n";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+---
+
+<section
+  class={`
+  w-full max-w-7xl
+  grid grid-cols-10 auto-rows-[25rem] gap-4
+  mx-auto px-5 lg:px-0
+`}
+>
+  <BentoItemBottomGradient
+    class="col-span-10 md:col-span-5"
+    title={i18n.BENTO_2_TITLE_1}
+  >
+    <div
+      slot="image"
+      class="absolute w-full h-full bg-no-repeat bg-cover group-hover:scale-105 transition-all duration-500 ease-in-out opacity-90 bg-[#23374B] bg-blend-luminosity -z-10"
+      style="background-image: url(/positive_rating_img.jpg)"
+    >
+    </div>
+    <p slot="content">
+      {i18n.BENTO_2_CONTENT_1}
+    </p>
+  </BentoItemBottomGradient>
+
+  <BentoItemBottomGradient
+    class="col-span-10 md:col-span-5"
+    title={i18n.BENTO_2_TITLE_2}
+  >
+    <div
+      slot="image"
+      class="absolute w-full h-full bg-no-repeat bg-cover group-hover:scale-105 transition-all duration-500 ease-in-out opacity-90 bg-[#23374B] bg-blend-luminosity -z-10"
+      style="background-image: url(/negative_rating_img.jpg)"
+    >
+    </div>
+    <p slot="content">
+      {i18n.BENTO_2_CONTENT_2}
+    </p>
+  </BentoItemBottomGradient>
+
+  <BentoItemBottomGradient
+    class="col-span-10 md:col-span-5"
+    title={i18n.BENTO_2_TITLE_3}
+  >
+    <div
+      slot="image"
+      class="absolute w-full h-full bg-no-repeat bg-cover group-hover:scale-105 transition-all duration-500 ease-in-out opacity-90 bg-[#23374B] bg-blend-luminosity -z-10"
+      style="background-image: url(/average_playtime_img.jpg)"
+    >
+    </div>
+    <p slot="content">
+      {i18n.BENTO_2_CONTENT_3}
+    </p>
+  </BentoItemBottomGradient>
+
+  <BarChart
+    client:visible
+    tailwindStyles="col-span-10 md:col-span-5 relative rounded-xl backdrop-blur-md border border-black/10 shadow-inner shadow-white/10 overflow-hidden flex items-center bg-[#0e141b]"
+  />
+</section>

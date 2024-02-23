@@ -2,6 +2,11 @@
   "SEO_TITLE" : "Investigación Steam Store, Análisis de factores que influyen en la valoracion de juegos en la Steam Store",
   "SEO_DESCRIPTION" : "Investigacion de como influyen los parámetros en la valoración de los video-juegos de la Steam Store",
 
+	"SEO": {
+		"ABOUT_TITLE": "Información sobre el proyecto",
+		"ABOUT_DESCRIPTION": "En esta sección se presenta información sobre el proyecto de investigación de la Steam Store, y se detallan los objetivos, metodología y resultados obtenidos."
+	},
+
   "HEADER_ABOUT": "ACERCA DE",
 	"HEADER_DATASET": "DATASET",
 	"HEADER_RESOURSES": "RECURSOS",
@@ -10,26 +15,49 @@
   "VIDEO_TITLE": "FACTORES QUE INFLUYEN EN LA POPULARIDAD Y VALORACIÓN DE VIDEO-JUEGOS EN LA STEAM STORE",
   
   "INTRO_TITLE" : "Descripción del proyecto",
-  "INTRO_DESCRIPTION_1":"El mercado de videojuegos es uno de los más grandes del mundo, y <strong>Steam</strong> es la plataforma más grande de distribución de videojuegos en PC. En esta plataforma,los usuarios pueden comprar, descargar y jugar videojuegos, así como tambiénpueden interactuar con otros usuarios a través de la comunidad de Steam.",
-  "INTRO_DESCRIPTION_2":"En esta comunidad, los usuarios pueden compartir contenido, como capturas de pantalla, videos, guías, etc. Además, los usuarios pueden calificar los videojuegos que han jugado, y pueden escribir reseñas sobre ellos.",
-  "INTRO_DESCRIPTION_3":"Para ello es importante conocer cuales son los aspectos más importante para los usuarios a la hora de comprar un videojuego, y para ello se ha realizado un análisis de sentimientos de las reseñas de los videojuegos de Steam.",
+  "INTRO_DESCRIPTION_1":"Este tema surge no solo por la fascinación que generan los videojuegos, sino por la necesidad de desentrañar las complejas fuerzas que definen el éxito en un mercado digital en constante evolución.",
+  "INTRO_DESCRIPTION_2":"Escogemos este enfoque porque la Steam Store, más que una simple plataforma de videojuegos se ha convertido en un fenómeno cultural, un punto de encuentro digital que trasciende el mero entretenimiento. Esta investigación adquiere importancia al arrojar luz sobre los factores que determinan la aceptación y preferencia de los usuarios en un momento crucial para la industria de los videojuegos.",
+  "INTRO_DESCRIPTION_3":"Así, nuestro estudio no solo contribuye a la creciente literatura sobre videojuegos, sino que también proporciona una comprensión más profunda de cómo la intersección entre tecnología y entretenimiento moldea nuestras experiencias digitales.",
 
-  "BENTO_TITLE_1": "Variables del proyecto",
-	"BENTO_CONTENT_1": "En el contexto del análisis del impacto negativo del desempleo en los hogares de la ciudad de Quito durante el año 2020, es apropiado definir las variables independientes y dependientes de la siguiente manera:",
-	"BENTO_TITLE_2": "Variables Dependientes",
+  "BENTO_TITLE_1": "Objetivo General",
+	"BENTO_CONTENT_1": "Evaluar el grado de influencia que tienen las valoraciones de los usuarios en la aceptación de un videojuego dentro de la comunidad de jugadores en la Steam Store.",
+	"BENTO_TITLE_2": "Objetivos Específicos",
 	"BENTO_SUBTITLE_2": "",
-	"BENTO_CONTENT_2": "La variable dependiente en este análisis es el impacto negativo del desempleo en los hogares de la ciudad de Quito durante el año 2020. Esta variable se refiere a las consecuencias y repercusiones que el desempleo puede tener en la vida de los hogares, incluyendo aspectos económicos, sociales y de bienestar. Se observará cómo el desempleo afecta los ingresos familiares, el acceso a necesidades básicas, la salud física y mental de los miembros del hogar, y las relaciones sociales.",
-	"BENTO_TITLE_3": "Variables Independientes",
+	"BENTO_CONTENT_2": "Buscar un repositorio de datos abiertos alojado en la plataforma Kaggle que contenga información detallada sobre videojuegos, incluyendo sus valoraciones positivas y negativas, tiempo promedio de juego y tiempo medio de juego.",
+	"BENTO_TITLE_3": "",
 	"BENTO_SUBTITLE_3": "",
-	"BENTO_CONTENT_3": "La variable independiente en este estudio es el desempleo. Se refiere a la situación laboral de las personas que se encuentran sin empleo durante algún período del año 2020 en la ciudad de Quito. Esta variable es la que se considera como el factor principal que puede influir en el impacto negativo en los hogares, ya que el desempleo puede afectar directamente los ingresos familiares y la estabilidad económica.",
-	"BENTO_TITLE_4": "Juego",
-	"BENTO_CONTENT_4": "Los resultados analizados de este juego son los siguientes: - El 80% de los jugadores que jugaron el juego, no lograron pasar el primer nivel. - El 20% de los jugadores que jugaron el juego, lograron pasar el primer nivel. - El 10% de los jugadores que jugaron el juego, lograron pasar el segundo nivel.",
+	"BENTO_CONTENT_3": "Determinar las variables que tienen mayor influencia en la aceptación de un videojuego mediante un análisis detallado de los coeficientes de correlación.",
+	"BENTO_TITLE_4": "",
+	"BENTO_CONTENT_4": "Analizar la relación entre las valoraciones positivas y negativas de los videojuegos, utilizando técnicas de análisis estadístico para determinar el impacto relativo de cada tipo de valoración en la aceptación general de los juegos en la plataforma.",
+	
+	"SINGLE_TEXT_ITEM_TITLE_1": "Hipótesis",
+	"SINGLE_TEXT_ITEM_CONTENT_1": "Las valoraciones de un videojuego no influyen significativamente en la aceptación de un videojuego por parte de la comunidad de los jugadores en la Steam Store.",
 
+	"SINGLE_TEXT_ITEM_TITLE_2": "Población Objetivo",
+  "SINGLE_TEXT_ITEM_CONTENT_2": "En el epicentro de nuestra investigación se encuentran los videojuegos disponibles en la Steam Store. Esta plataforma, reconocida por su diversidad, alberga una amplia gama de títulos que van más allá del simple entretenimiento. Enfocamos nuestra atención específicamente en estos videojuegos, analizando datos clave para comprender los factores que influyen en su aceptación por parte de la comunidad de jugadores.",
+	
+
+	"INTRO_CONTENT_TITLE_1": "Resultados Clave",
+	"INTRO_CONTENT_CONTENT_1": "A través de un minucioso análisis, nuestra investigación ha revelado fascinantes patrones y tendencias en la Steam Store. Entre los resultados clave destacan:",
+
+	"BENTO_2_TITLE_1": "Influencia de Valoraciones Positivas",
+	"BENTO_2_CONTENT_1": "Las valoraciones positivas emergen como un factor crucial para la aceptación general de un juego. La correlación positiva entre valoraciones positivas y aceptación sugiere que comentarios elogiosos impactan significativamente en la popularidad de un título.",
+	"BENTO_2_TITLE_2": "Valoraciones Negativas y su Impacto Relativo",
+	"BENTO_2_CONTENT_2": "Aunque las valoraciones negativas también influyen, su impacto es menor en comparación con las positivas. La comunidad tiende a valorar más las experiencias positivas, lo que se refleja en la probabilidad de aceptación del juego.",
+	"BENTO_2_TITLE_3": "Tiempo Promedio de Juego",
+	"BENTO_2_CONTENT_3": "Contrariamente a la expectativa, el tiempo promedio de juego no muestra una correlación significativa con la aceptación positiva. Indica que la duración que los usuarios dedican a un juego no es un factor determinante para su aceptación.",
+
+	"INTRO_CONTENT_2_TITLE_1": "Conclusiones",
+	"INTRO_CONTENT_2_CONTENT_1": "La influencia abrumadora de las valoraciones positivas destaca su papel centra en la aceptación de un juego. Este hallazgo subraya la importancia de construir experiencias que generen comentarios positivos, un factor clave para el éxito en la plataforma.",
+	"INTRO_CONTENT_2_CONTENT_2": "Aunque las valoraciones negativas tienen impacto, su influencia es más moderada en comparación con las positivas. La comunidad tiende a ponderar más las experiencias positivas, sugiriendo que los aspectos negativos pueden ser superados por la calidad global del juego.",
+	"INTRO_CONTENT_2_CONTENT_3": "Contrariamente a las expectativas, el tiempo promedio de juego no surge como un factor decisivo en la aceptación. Esto indica que la duración de juego no es la única medida de éxito; la calidad y la resonancia emocional juegan roles fundamentales.",
+
+	
   "SCHEDULE_TITLE": "Cronograma de actividades",
 
   "FOOTER": {
     "LOGO_TITLE":"Investigación Steam Store",
-		"DISCLAIMER": "2024 © Todos los derechos reservados.",
+		"DISCLAIMER": "2024: Uso libre para cualquier propósito, sin garantías ni condiciones.",
 		"CONTACT": {
 			"TITLE": "CONTACTO",
 			"LEGAL": "Aviso Legal",
@@ -48,7 +76,40 @@
 			"DATASET": "Home",
 			"APIS": "APIs"
 		}
-	}
-  
+	},
+	"ABOUT_TITLE_1": "Acerca de la Investigación",
+	"ABOUT_DESCRIPTION_1":"Bienvenido a nuestro espacio de investigación! Queremos informarte que el trabajo que encontrarás en este sitio está siendo realizado con fines exclusivamente académicos y educativos. Nuestra meta principal es contribuir al conocimiento en nuestra área de estudio y proporcionar ejemplos con propósitos didácticos.",
+	"ABOUT_DESCRIPTION_2":"Es importante tener en cuenta que este trabajo <strong> puede no cumplir con los estándares profesionales</strong> de una investigación formal y profesional. Te recomendamos interpretar los resultados y conclusiones con la consideración adecuada, entendiendo que el enfoque principal es educativo.",
+	"ABOUT_DESCRIPTION_3":"Si bien nos esforzamos por la precisión y calidad en nuestro trabajo, agradecemos tu comprensión de que el contenido aquí presente <strong> puede no estar completamente alineado con los rigurosos estándares de la investigación profesional.</strong>",
+	"ABOUT_DESCRIPTION_4":"Si tiene alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros. ¡Gracias por tu interés y comprensión!",
 
+	"ABOUT_TITLE_2": "Agradecimientos",
+	"ABOUT_DESCRIPTION_5":"Queremos expresar nuestro agradecimiento al ingeniero <strong>Milton Giovanny Moncayo Unda</strong>, supervisor y maestro de la materia, cuya guía y orientación fueron esenciales para el desarrollo exitoso de este proyecto. Agradecemos también a nuestros compañeros de clase y a todos aquellos que brindaronapoyo y perspectivas valiosas. Su contribución ha sido fundamental para enriquecer nuestra experiencia educativa.",
+
+	"DATASET_TITLE_1": "Origen del Dataset",
+	"DATASET_DESCRIPTION_1":"El conjunto de datos se basa en la combinación de información recopilada de la Steam Store y las APIs de SteamSpy. Creado por Nik Davis, este conjunto de datos fue concebido en mayo de 2019 y abarca la mayoría de los juegos lanzados hasta esa fecha en la tienda de Steam. Nik se propuso crear este dataset como parte de su viaje de aprendizaje en ciencia de datos y ha compartido generosamente la información para su uso público.",
+	"DATASET_TITLE_2": "Propósito y Contenido",
+	"DATASET_DESCRIPTION_2":"El dataset contiene información detallada sobre diversos aspectos de los juegos, como género y estimación del número de propietarios. Fue diseñado con el propósito de ser utilizado en proyectos de ciencia de datos y, en nuestro caso, ha sido una herramienta valiosa para explorar patrones y relaciones en el contexto de nuestra investigación académica.",
+	"DATASET_TITLE_3": "Uso del Dataset",
+	"DATASET_DESCRIPTION_3":"Nos gustaría expresar nuestro agradecimiento a Nik Davis por proporcionar este dataset y alentamos a otros investigadores y entusiastas de la ciencia de datos a explorar y utilizar esta valiosa fuente de información. Puedes acceder al dataset en",
+
+	
+	"RESOURSES_TITLE_1": "RECURSOS DIGITALES",
+	"RESOURSES_DESCRIPTION_1":"Enlaces directos a documentos que profundizan en los aspectos clave de nuestra investigación, presentaciones que resumen hallazgos importantes y códigos fuente que respaldan los análisis realizados.",
+
+	"RESOURSES_CARD_TITLE_1": "Documento",
+	"RESOURSES_CARD_DESCRIPTION_1":"Documento pdf del informe de investigación con todos los detalles de la investigación.",
+	"RESOURSES_CARD_LINKNAME_1": "Descargar",
+
+	"RESOURSES_CARD_TITLE_2": "Presentación",
+	"RESOURSES_CARD_DESCRIPTION_2":"Diapositivas de los aspectos más destacados de nuestra investigación.",
+	"RESOURSES_CARD_LINKNAME_2": "Descargar",
+
+	"RESOURSES_CARD_TITLE_3": "DataSet",
+	"RESOURSES_CARD_DESCRIPTION_3":"El conjunto de variables que hemos utilizado para realizar la investigación.",
+	"RESOURSES_CARD_LINKNAME_3": "Ver en Kaggle",
+
+	"RESOURSES_CARD_TITLE_4": "Código fuente de la web",
+	"RESOURSES_CARD_DESCRIPTION_4":"El código fuente de la web que hemos desarrollado para la investigación.",
+	"RESOURSES_CARD_LINKNAME_4": "Ver en GitHub"
 }

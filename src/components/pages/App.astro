@@ -8,6 +8,12 @@ import Video from "../Video.astro";
 import Layout from "../../layouts/Layout.astro";
 
 import { getI18N } from "../../i18n";
+import BentoItem from "../BentoItem.astro";
+import SingleTextItem from "../SingleTextItem.astro";
+import IntroContent from "../IntroContent.astro";
+import SingleTextItem2 from "../SingleTextItem2.astro";
+import Bento2 from "../Bento2.astro";
+import IntroContent2 from "../IntroContent2.astro";
 
 const { currentLocale } = Astro;
 const i18n = getI18N({ currentLocale });
@@ -18,7 +24,11 @@ const i18n = getI18N({ currentLocale });
     <Video />
     <Intro />
     <Bento />
-    <GraficasBento />
+    <SingleTextItem />
+    <SingleTextItem2 />
+    <IntroContent />
+    <Bento2 />
+    <IntroContent2 />
     <Cronograma />
     <Footer />
   </main>

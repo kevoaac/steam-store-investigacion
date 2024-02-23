@@ -12,7 +12,7 @@ const i18n = getI18N({ currentLocale });
 <section
   class={`
   w-full max-w-7xl
-  grid grid-cols-10 auto-rows-[30rem] gap-4
+  grid grid-cols-10  gap-4
   mx-auto px-5 lg:px-0
 `}
 >
@@ -26,34 +26,34 @@ const i18n = getI18N({ currentLocale });
       {i18n.BENTO_CONTENT_1}
     </p>
   </BentoItem>
-  <BentoItem class="col-span-10 md:col-span-5" title={i18n.BENTO_TITLE_2}>
+  <BentoItem class="col-span-10 md:col-span-6" title={i18n.BENTO_TITLE_2}>
+    <div
+      slot="image"
+      class="absolute h-full w-full bg-[#1d2938] bg-cover -z-10 opacity-50"
+    >
+    </div>
     <p slot="content">
       {i18n.BENTO_CONTENT_2}
     </p>
   </BentoItem>
-  <BentoItem class="col-span-10 md:col-span-5" title={i18n.BENTO_TITLE_3}>
+  <BentoItem class="col-span-10 md:col-span-4" title={i18n.BENTO_TITLE_3}>
+    <div
+      slot="image"
+      class="absolute h-full w-full bg-[#1d2938] bg-cover -z-10 opacity-50"
+    >
+    </div>
     <p slot="content">
       {i18n.BENTO_CONTENT_3}
     </p>
   </BentoItem>
-  <BentoItemBottomGradient
-    class="col-span-10 md:col-span-5"
-    title={i18n.BENTO_TITLE_4}
-  >
+  <BentoItem class="col-span-10 md:col-span-10" title={i18n.BENTO_TITLE_4}>
     <div
       slot="image"
-      class="absolute w-full h-full bg-no-repeat bg-cover
-       group-hover:scale-105 transition-all duration-500 ease-in-out
-    opacity-90 bg-[#23374B] bg-blend-luminosity -z-10"
-      style="background-image: url(https://cdn.akamai.steamstatic.com/steam/apps/4580/header.jpg?t=1603128095)"
+      class="absolute h-full w-full bg-[#1d2938] bg-cover -z-10 opacity-50"
     >
     </div>
     <p slot="content">
       {i18n.BENTO_CONTENT_4}
     </p>
-  </BentoItemBottomGradient>
-  <BarChart
-    client:visible
-    tailwindStyles="col-span-10 md:col-span-5 relative rounded-xl backdrop-blur-md border border-black/10 shadow-inner shadow-white/10 overflow-hidden flex items-center bg-[#0e141b]"
-  />
+  </BentoItem>
 </section>

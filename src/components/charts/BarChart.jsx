@@ -1,7 +1,6 @@
 import { Bar } from "react-chartjs-2";
 import { Chart as ChartJS } from "chart.js/auto";
 import { useState } from "react";
-import { steamData } from "../../mocks/steamData";
 
 function BarChart({ tailwindStyles }) {
   const contarAceptacion = (data) => {
@@ -20,12 +19,12 @@ function BarChart({ tailwindStyles }) {
 
   const [SteamData, setSteamData] = useState({
     labels: [
-      "Videojuegos con aceptación positiva",
-      "Videojuegos con aceptación negativa",
+      "Videogames with negative acceptance",
+      "Videogames with negative acceptance",
     ],
     datasets: [
       {
-        label: "Aceptación de videojuegos",
+        label: "Videogame acceptance",
         data: [21682, 5393], //contarAceptacion(steamData), //21682 5393
         backgroundColor: [
           "#22cfcf",

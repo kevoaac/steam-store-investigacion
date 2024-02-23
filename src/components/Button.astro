@@ -3,7 +3,8 @@ const { url, target, class: className, ...rest } = Astro.props;
 ---
 
 <a
-  href={url}
+  href="/Informe_Investigacion_SteamStore.pdf"
+  download="Informe_Investigacion_SteamStore.pdf"
   target=`${target ?? '_blank'}`
   rel="noopener noreferrer"
   class:list={[

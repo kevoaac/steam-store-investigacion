@@ -15,7 +15,7 @@ const columns = [
 const rows = [
   [
     "capitulo1", // id
-    "Definición del problema", // nombre
+    "Problem Definition", // nombre // traducción Definición del problema
     null, // recurso
     new Date(2024, 0, 5), // fecha de inicio
     new Date(2024, 0, 19), // fecha de finalización
@@ -25,7 +25,7 @@ const rows = [
   ],
   [
     "capitulo2",
-    "Marco referencial",
+    "Reference Framework", // traducción Marco referencial
     "Capitulo 2",
     new Date(2024, 0, 19),
     new Date(2024, 0, 26),
@@ -35,7 +35,7 @@ const rows = [
   ],
   [
     "capitulo3",
-    "Marco metodológico y administrativo",
+    "Methodological and Administrative Framework", // traducción Marco metodológico y administrativo
     "Capitulo 3",
     new Date(2024, 0, 26),
     new Date(2024, 1, 2),
@@ -45,7 +45,7 @@ const rows = [
   ],
   [
     "capitulo4",
-    "Recopilación y análisis de datos",
+    "Data Collection and Analysis", // traducción Recopilación y análisis de datos
     "Capitulo 4",
     new Date(2024, 1, 2),
     new Date(2024, 1, 9),
@@ -55,7 +55,7 @@ const rows = [
   ],
   [
     "capitulo5",
-    "Resultados y conclusiones",
+    "Results and Conclusions", // traducción Resultados y conclusiones
     "Capitulo 5",
     new Date(2024, 1, 9),
     new Date(2024, 1, 16),
@@ -65,7 +65,7 @@ const rows = [
   ],
   [
     "capitulo6",
-    "Presentación de investigación",
+    "Research Presentation", // traducción Presentación de investigación
     "capitulo6",
     new Date(2024, 1, 16),
     new Date(2024, 1, 23),

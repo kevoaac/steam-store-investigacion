@@ -1,0 +1,27 @@
+---
+import Intro2 from "../Intro2.astro";
+import Layout from "../../layouts/Layout.astro";
+
+import { getI18N } from "../../i18n";
+
+const { currentLocale } = Astro;
+const i18n = getI18N({ currentLocale });
+---
+
+<Layout title={i18n.SEO.ABOUT_TITLE} , description={i18n.SEO.ABOUT_DESCRIPTION}>
+  <main class="h-screen">
+    <Intro2 title={i18n.ABOUT_TITLE_1}>
+      <p slot="p1">
+        {i18n.ABOUT_DESCRIPTION_1}
+      </p>
+      <p slot="p2" set:html={i18n.ABOUT_DESCRIPTION_2} />
+      <p slot="p3" set:html={i18n.ABOUT_DESCRIPTION_3} />
+      <p slot="p4">
+        {i18n.ABOUT_DESCRIPTION_4}
+      </p>
+    </Intro2>
+    <Intro2 title={i18n.ABOUT_TITLE_2}>
+      <p slot="p1" set:html={i18n.ABOUT_DESCRIPTION_5} />
+    </Intro2>
+  </main>
+</Layout>

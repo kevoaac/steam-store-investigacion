@@ -1,6 +1,10 @@
 {
   "SEO_TITLE" : "Steam Store Research, Analysis of factors that influence the valuation of games in the Steam Store",
   "SEO_DESCRIPTION" : "Research on how parameters influence the valuation of video games in the Steam Store",
+  "SEO": {
+		"ABOUT_TITLE": "Steam Store Research - About",
+		"ABOUT_DESCRIPTION": "In this section you will find information about the project, the objectives and the methodology used to carry out the research."
+	},
 
   "HEADER_ABOUT": "ABOUT",
 	"HEADER_DATASET": "DATASET",
@@ -14,22 +18,49 @@
   "INTRO_DESCRIPTION_2":"In this community, users can share content, such as screenshots, videos, guides, etc. In addition, users can rate the video games they have played, and can write reviews about them.",
   "INTRO_DESCRIPTION_3":"For this reason, it is important to know what are the most important aspects for users when buying a video game, and for this reason a sentiment analysis of the reviews of Steam video games has been carried out.",
 
-  "BENTO_TITLE_1": "Project variables",
-  "BENTO_CONTENT_1": "In the context of the analysis of the negative impact of unemployment on households in the city of Quito during the year 2020, it is appropriate to define the independent and dependent variables as follows:",
-  "BENTO_TITLE_2": "Dependent Variables",
+
+  "BENTO_TITLE_1": "General Objective",
+  "BENTO_CONTENT_1": "Evaluate the degree of influence that user ratings have on the acceptance of a video game within the community of players in the Steam Store.",
+  "BENTO_TITLE_2": "Specific Objectives",
   "BENTO_SUBTITLE_2": "",
-  "BENTO_CONTENT_2": "The dependent variable in this analysis is the negative impact of unemployment on households in the city of Quito during the year 2020. This variable refers to the consequences and repercussions that unemployment can have on the lives of households, including economic, social and well-being aspects. It will be observed how unemployment affects family income, access to basic needs, the physical and mental health of household members, and social relationships.",
-  "BENTO_TITLE_3": "Independent Variables",
+  "BENTO_CONTENT_2": "Search for an open data repository hosted on the Kaggle platform that contains detailed information about video games, including their positive and negative ratings, average playtime and average playtime.",
+  "BENTO_TITLE_3": "",
   "BENTO_SUBTITLE_3": "",
-  "BENTO_CONTENT_3": "The independent variable in this study is unemployment. It refers to the employment situation of people who are unemployed for some period of the year 2020 in the city of Quito. This variable is considered as the main factor that can influence the negative impact on households, since unemployment can directly affect family income and economic stability.",
-  "BENTO_TITLE_4": "Game",
-  "BENTO_CONTENT_4": "The analyzed results of this game are as follows: - 80% of the players who played the game, did not manage to pass the first level. - 20% of the players who played the game, managed to pass the first level. - 10% of the players who played the game, managed to pass the second level.",
+  "BENTO_CONTENT_3": "Determine the variables that have the greatest influence on the acceptance of a video game through a detailed analysis of the correlation coefficients.",
+  "BENTO_TITLE_4": "",
+  "BENTO_CONTENT_4": "Analyze the relationship between the positive and negative ratings of video games, using statistical analysis techniques to determine the relative impact of each type of rating on the general acceptance of games on the platform.",
+  
+  
+  "SINGLE_TEXT_ITEM_TITLE_1": "Hypothesis",
+  "SINGLE_TEXT_ITEM_CONTENT_1": "The ratings of a video game do not significantly influence the acceptance of a video game by the community of players in the Steam Store.",
+  
+  "SINGLE_TEXT_ITEM_TITLE_2": "Target Population",
+  "SINGLE_TEXT_ITEM_CONTENT_2": "At the epicenter of our research are the video games available in the Steam Store. This platform, recognized for its diversity, hosts a wide range of titles that go beyond simple entertainment. We focus our attention specifically on these video games, analyzing key data to understand the factors that influence their acceptance by the gaming community.",
+
+
+  "INTRO_CONTENT_TITLE_1": "Key Results",
+  "INTRO_CONTENT_CONTENT_1": "Through a thorough analysis, our research has revealed fascinating patterns and trends in the Steam Store. Among the key results are:",
+  
+  
+  "BENTO_2_TITLE_1": "Influence of Positive Ratings",
+  "BENTO_2_CONTENT_1": "Positive ratings emerge as a crucial factor for the general acceptance of a game. The positive correlation between positive ratings and acceptance suggests that laudatory comments significantly impact the popularity of a title.",
+  "BENTO_2_TITLE_2": "Negative Ratings and their Relative Impact",
+  "BENTO_2_CONTENT_2": "Although negative ratings also influence, their impact is less compared to the positive ones. The community tends to value positive experiences more, which is reflected in the probability of game acceptance.",
+  "BENTO_2_TITLE_3": "Average Playtime",
+  "BENTO_2_CONTENT_3": "Contrary to expectation, the average playtime does not show a significant correlation with positive acceptance. It indicates that the duration that users dedicate to a game is not a determining factor for its acceptance.",
+
+
+  "INTRO_CONTENT_2_TITLE_1": "Conclusions",
+  "INTRO_CONTENT_2_CONTENT_1": "The overwhelming influence of positive ratings highlights their central role in the acceptance of a game. This finding underscores the importance of building experiences that generate positive comments, a key factor for success on the platform.",
+  "INTRO_CONTENT_2_CONTENT_2": "Although negative ratings have an impact, their influence is more moderate compared to the positive ones. The community tends to weigh positive experiences more, suggesting that negative aspects can be overcome by the overall quality of the game.",
+  "INTRO_CONTENT_2_CONTENT_3": "Contrary to expectations, the average playtime does not emerge as a decisive factor in acceptance. This indicates that the duration of play is not the only measure of success; quality and emotional resonance play fundamental roles.",
 
   "SCHEDULE_TITLE": "Schedule of activities",
 
-  "FOOTER": {
+  
+  "FOOTER": { 
     "LOGO_TITLE":"Steam Store Research",
-    "DISCLAIMER": "2024 © All rights reserved.",
+    "DISCLAIMER": "2024: Free use for any purpose, no warranties or conditions.",
     "CONTACT": {
       "TITLE": "CONTACT",
       "LEGAL": "Legal Notice",
@@ -48,5 +79,43 @@
       "DATASET": "Home",
       "APIS": "APIs"
     }
-  }
+  },
+  "ABOUT_TITLE_1": "About the Research",
+  "ABOUT_DESCRIPTION_1":"Welcome to our research space! We want to inform you that the work you will find on this site is being carried out for exclusively academic and educational purposes. Our main goal is to contribute to knowledge in our area of study and provide examples for educational purposes.",
+  "ABOUT_DESCRIPTION_2":"It is important to keep in mind that this work <strong> may not meet the professional standards</strong> of a formal and professional research. We recommend interpreting the results and conclusions with the appropriate consideration, understanding that the main focus is educational.",
+  "ABOUT_DESCRIPTION_3":"While we strive for accuracy and quality in our work, we appreciate your understanding that the content presented here <strong> may not be completely aligned with the rigorous standards of professional research.</strong>",
+  "ABOUT_DESCRIPTION_4":"If you have any questions or comments, do not hesitate to contact us. Thank you for your interest and understanding!",
+
+  "ABOUT_TITLE_2": "Acknowledgements",
+  "ABOUT_DESCRIPTION_5":"We want to express our gratitude to engineer <strong>Milton Giovanny Moncayo Unda</strong>, supervisor and teacher of the subject, whose guidance and orientation were essential for the successful development of this project. We also thank our classmates and all those who provided support and valuable perspectives. Your contribution has been fundamental to enrich our educational experience.",
+
+  
+  "DATASET_TITLE_1": "Dataset Origin",
+  "DATASET_DESCRIPTION_1": "The dataset is based on the combination of information collected from the Steam Store and the SteamSpy APIs. Created by Nik Davis, this dataset was conceived in May 2019 and covers most of the games released up to that date in the Steam store. Nik set out to create this dataset as part of his learning journey in data science and has generously shared the information for public use.",
+  "DATASET_TITLE_2": "Purpose and Content",
+  "DATASET_DESCRIPTION_2": "The dataset contains detailed information about various aspects of the games, such as genre and estimated number of owners. It was designed with the purpose of being used in data science projects and, in our case, it has been a valuable tool to explore patterns and relationships in the context of our academic research.",
+  "DATASET_TITLE_3": "Use of the Dataset",
+  "DATASET_DESCRIPTION_3": "We would like to express our gratitude to Nik Davis for providing this dataset and encourage other researchers and data science enthusiasts to explore and use this valuable source of information. You can access the dataset at",
+
+
+  "RESOURSES_TITLE_1": "DIGITAL RESOURCES",
+  "RESOURSES_DESCRIPTION_1":"Direct links to documents that delve into key aspects of our research, presentations that summarize important findings, and source code that supports the analyses carried out.",
+  
+  "RESOURSES_CARD_TITLE_1": "Document",
+  "RESOURSES_CARD_DESCRIPTION_1":"Pdf document of the research report with all the details of the research.",
+  "RESOURSES_CARD_LINKNAME_1": "Download",
+
+  "RESOURSES_CARD_TITLE_2": "Presentation",
+  "RESOURSES_CARD_DESCRIPTION_2":"Slides of the highlights of our research.",
+  "RESOURSES_CARD_LINKNAME_2": "Download",
+
+  "RESOURSES_CARD_TITLE_3": "DataSet",
+  "RESOURSES_CARD_DESCRIPTION_3":"The set of variables that we have used to carry out the research.",
+  "RESOURSES_CARD_LINKNAME_3": "View on Kaggle",
+
+  "RESOURSES_CARD_TITLE_4": "Web source code",
+  "RESOURSES_CARD_DESCRIPTION_4":"The source code of the web that we have developed for the research.",
+  "RESOURSES_CARD_LINKNAME_4": "View on GitHub"
+
+
 }
