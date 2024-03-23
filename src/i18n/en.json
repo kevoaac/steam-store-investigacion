@@ -60,7 +60,7 @@
   
   "FOOTER": { 
     "LOGO_TITLE":"Steam Store Research",
-    "DISCLAIMER": "2024: Free use for any purpose, no warranties or conditions.",
+    "DISCLAIMER": "2024: License not specified.",
     "CONTACT": {
       "TITLE": "CONTACT",
       "LEGAL": "Legal Notice",
@@ -88,6 +88,10 @@
 
   "ABOUT_TITLE_2": "Acknowledgements",
   "ABOUT_DESCRIPTION_5":"We want to express our gratitude to engineer <strong>Milton Giovanny Moncayo Unda</strong>, supervisor and teacher of the subject, whose guidance and orientation were essential for the successful development of this project. We also thank our classmates and all those who provided support and valuable perspectives. Your contribution has been fundamental to enrich our educational experience.",
+
+  "ABOUT_TITLE_3": "Web",
+  "ABOUT_DESCRIPTION_6": "This website was developed based on the following GitHub repository:",
+  "ABOUT_DESCRIPTION_7": "If you would like more information about the source code, we invite you to visit the mentioned repository.",
 
   
   "DATASET_TITLE_1": "Dataset Origin",

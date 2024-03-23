@@ -57,7 +57,7 @@
 
   "FOOTER": {
     "LOGO_TITLE":"Investigación Steam Store",
-		"DISCLAIMER": "2024: Uso libre para cualquier propósito, sin garantías ni condiciones.",
+		"DISCLAIMER": "2024: Licencia no especificada.",
 		"CONTACT": {
 			"TITLE": "CONTACTO",
 			"LEGAL": "Aviso Legal",
@@ -85,6 +85,11 @@
 
 	"ABOUT_TITLE_2": "Agradecimientos",
 	"ABOUT_DESCRIPTION_5":"Queremos expresar nuestro agradecimiento al ingeniero <strong>Milton Giovanny Moncayo Unda</strong>, supervisor y maestro de la materia, cuya guía y orientación fueron esenciales para el desarrollo exitoso de este proyecto. Agradecemos también a nuestros compañeros de clase y a todos aquellos que brindaronapoyo y perspectivas valiosas. Su contribución ha sido fundamental para enriquecer nuestra experiencia educativa.",
+
+	"ABOUT_TITLE_3": "Web",
+	"ABOUT_DESCRIPTION_6":"Este sitio web fue desarrollado en base a al siguiente repositorio de GitHub:",
+	"ABOUT_DESCRIPTION_7":"Si deseas obtener más información sobre el código fuente, te invitamos a visitar el repositorio mensionado.",
+	
 
 	"DATASET_TITLE_1": "Origen del Dataset",
 	"DATASET_DESCRIPTION_1":"El conjunto de datos se basa en la combinación de información recopilada de la Steam Store y las APIs de SteamSpy. Creado por Nik Davis, este conjunto de datos fue concebido en mayo de 2019 y abarca la mayoría de los juegos lanzados hasta esa fecha en la tienda de Steam. Nik se propuso crear este dataset como parte de su viaje de aprendizaje en ciencia de datos y ha compartido generosamente la información para su uso público.",

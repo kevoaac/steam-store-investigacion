@@ -9,7 +9,7 @@ const i18n = getI18N({ currentLocale });
 ---
 
 <Layout title={i18n.SEO.ABOUT_TITLE} , description={i18n.SEO.ABOUT_DESCRIPTION}>
-  <main class="h-screen">
+  <main>
     <Intro2 title={i18n.ABOUT_TITLE_1}>
       <p slot="p1">
         {i18n.ABOUT_DESCRIPTION_1}
@@ -22,6 +22,21 @@ const i18n = getI18N({ currentLocale });
     </Intro2>
     <Intro2 title={i18n.ABOUT_TITLE_2}>
       <p slot="p1" set:html={i18n.ABOUT_DESCRIPTION_5} />
+    </Intro2>
+    <Intro2 title={i18n.ABOUT_TITLE_3}>
+      <p slot="p1">
+        {i18n.ABOUT_DESCRIPTION_6}
+        <a
+          class="text-blue-300 hover:text-blue-200 transition-colors ease-in-out"
+          ,
+          href="https://github.com/midudev/esland-web"
+          target="_blank"
+        >
+          midudev/esland-web
+        </a>
+      </p>
+
+      <p slot="p2" set:html={i18n.ABOUT_DESCRIPTION_7} />
     </Intro2>
   </main>
 </Layout>
